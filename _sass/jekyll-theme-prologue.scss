@@ -241,6 +241,7 @@
 		img {
 			display: block;
 			width: 100%;
+			border-radius: 10px 10px 0px 0px;
 		}
 
 		&.avatar48 {
@@ -453,14 +454,16 @@
 		margin-bottom: 40px;
 
 		header {
+		border-radius: 0px 0px 10px 10px;
 			color: #666;
 			text-align: center;
-			background: #fff;
+			background: #000;
 			margin: 0;
 			padding: 1em;
 			font-size: 0.8em;
 
 			h3 {
+				color: #f00;
 				font-size: 1em;
 			}
 		}
@@ -712,8 +715,11 @@
 			&.shade-three {
 				background-color: #ecf1f1;
 				color: #353E42;
-				h2, h3, h4, h5, h6 {
+				h2, h4, h5, h6 {
 					color: #353E42;
+				}
+				h3 {
+				color: #ecf1f1
 				}
 			}
 

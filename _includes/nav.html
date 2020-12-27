@@ -34,6 +34,9 @@
         {%- endif -%}
       {%- endfor -%}
     {%- endunless -%}
+    <!-- <li><a href="test" id="{{- _slug -}}-link">
+            <span class="icon fa-clock">TimeGlance</span>
+          </a></li> -->
     {%- assign _sections = include.section_items | where_exp: "section", "section.hide != true" -%}
     {%- if _pages[0] and _sections[0] -%}<hr>{%- endif -%}
     {%- unless _sections == null -%}
