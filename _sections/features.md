@@ -1,6 +1,6 @@
 ---
 title: Features
-icon: fa-user
+icon: fa-list-ul
 order: 3
 ---
 
